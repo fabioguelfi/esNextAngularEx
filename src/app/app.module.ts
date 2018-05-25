@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DefaultParamsComponent } from './default-params/default-params.component';
 import { ArrayFindandIndexComponent } from './array-findand-index/array-findand-index.component';
 import { DestructuringComponent } from './destructuring/destructuring.component';
+import { DestructuringArrayComponent } from './destructuring-array/destructuring-array.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DestructuringComponent } from './destructuring/destructuring.component'
     DefaultParamsComponent,
     ArrayOfComponent,
     ArrayFindandIndexComponent,
-    DestructuringComponent
+    DestructuringComponent,
+    DestructuringArrayComponent
   ],
   imports: [
     BrowserModule
