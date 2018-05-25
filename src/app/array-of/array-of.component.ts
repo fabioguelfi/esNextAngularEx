@@ -17,7 +17,7 @@ export class ArrayOfComponent implements OnInit {
   }
 
   public createArrayOf(): void {
-    this.data = Array.of(1, 7, 'ricardo', { name: 'fabio', surname: 'guelfi' });
+    this.data = Array.of({ name: 'ricardo', surname: 'guelfi' }, { name: 'fabio', surname: 'guelfi' });
   }
 
 }
