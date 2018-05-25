@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DefaultParamsComponent } from './default-params/default-params.component';
+import { ArrayFindandIndexComponent } from './array-findand-index/array-findand-index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DefaultParamsComponent,
-    ArrayOfComponent
+    ArrayOfComponent,
+    ArrayFindandIndexComponent
   ],
   imports: [
     BrowserModule
